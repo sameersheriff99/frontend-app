@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+  }
+  
+  .container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  input, select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  

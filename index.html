@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Auth UI</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Signup</h2>
+    <input id="signupName" placeholder="Name" />
+    <input id="signupEmail" placeholder="Email" />
+    <input id="signupPassword" placeholder="Password" type="password" />
+    <select id="signupRole">
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+    </select>
+    <button onclick="signup()">Signup</button>
+
+    <hr>
+
+    <h2>Login</h2>
+    <input id="loginEmail" placeholder="Email" />
+    <input id="loginPassword" placeholder="Password" type="password" />
+    <button onclick="login()">Login</button>
+
+    <hr>
+
+    <h2>Products</h2>
+    <button onclick="loadProducts()">Load Products</button>
+
+    <ul id="productList"></ul>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
